@@ -2,9 +2,9 @@
 
 ![logo](https://raw.githubusercontent.com/kuzzleio/kuzzle/master/docs/images/logo.png)
 
-# Plugin Passportjs
+# Plugin Basic Authentication
 
-This plugin activats authentication, using [Passportjs](http://passportjs.org/).
+This plugin provides a basic authentication with username/password with [passportjs module](http://passportjs.org/docs/username-password).
 
 By default, this plugin is already installed in Kuzzle.
 
@@ -14,6 +14,20 @@ This plugin doesn't need any right.
 
 # Configuration
 
+
+# Usage
+
+Just send following data to the **auth** controller:
+
+```json
+{"body":{
+  "strategy": "local",
+  "username": "<username>",
+  "password":"<password>"
+}}
+```
+
+See [Kuzzle API Documentation](http://kuzzleio.github.io/kuzzle-api-documentation/#auth-controller) for more details about Kuzzle authentication mechanism.
 
 # How to create a plugin
 
