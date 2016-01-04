@@ -1,11 +1,11 @@
 {
-  "name": "kuzzle-plugin-basicauth",
+  "name": "kuzzle-plugin-auth-passport-local",
   "version": "0.0.1",
   "description": "Kuzzle plugin to log-in users",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuzzleio/kuzzle-plugin-basicauth.git"
+    "url": "git+https://github.com/kuzzleio/kuzzle-plugin-auth-passport-local.git"
   },
   "keywords": [
     "kuzzle",
@@ -17,7 +17,7 @@
     "name": "Kuzzle Team"
   },
   "bugs": {
-    "url": "https://github.com/kuzzleio/kuzzle-plugin-basicauth/issues"
+    "url": "https://github.com/kuzzleio/kuzzle-plugin-auth-passport-local/issues"
   },
   "pluginInfo": {
     "defaultConfig": {
@@ -38,9 +38,9 @@
     "rewire": "2.4.0"
   },
   "gitHead": "",
-  "homepage": "https://github.com/kuzzleio/kuzzle-plugin-basicauth#readme",
-  "_id": "kuzzle-plugin-basicauth@0.0.1",
-  "_from": "kuzzle-plugin-basicauth@0.0.1",
+  "homepage": "https://github.com/kuzzleio/kuzzle-plugin-auth-passport-local#readme",
+  "_id": "kuzzle-plugin-auth-passport-local@0.0.1",
+  "_from": "kuzzle-plugin-auth-passport-local@0.0.1",
   "_npmVersion": "2.14.7",
   "_nodeVersion": "4.2.2",
   "_npmUser": {

@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/kuzzleio/kuzzle-plugin-basicauth.svg?branch=master)](https://travis-ci.org/kuzzleio/kuzzle-plugin-basicauth)
+[![Build Status](https://travis-ci.org/kuzzleio/kuzzle-plugin-auth-passport-local.svg?branch=master)](https://travis-ci.org/kuzzleio/kuzzle-plugin-auth-passport-local)
 
 ![logo](https://raw.githubusercontent.com/kuzzleio/kuzzle/master/docs/images/logo.png)
 
-# Plugin Basic Authentication
+# Plugin Local Password Authentication
 
-This plugin provides a basic authentication with username/password with [passportjs module](http://passportjs.org/docs/username-password).
+This plugin provides a local authentication with username/password with [passportjs module](http://passportjs.org/docs/username-password).
 
 By default, this plugin is already installed in Kuzzle.
 
