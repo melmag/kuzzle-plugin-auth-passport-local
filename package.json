@@ -3,10 +3,6 @@
   "version": "0.0.1",
   "description": "Kuzzle plugin to log-in users",
   "main": "./lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kuzzleio/kuzzle-plugin-auth-passport-local.git"
-  },
   "keywords": [
     "kuzzle",
     "plugin",
@@ -21,6 +17,9 @@
   },
   "pluginInfo": {
     "defaultConfig": {
+      "secret": "jbsB8r69PFP39KdLtjVr25Z22",
+      "algorithm": "sha1",
+      "digest": "hex"
     }
   },
   "license": "Apache-2.0",
