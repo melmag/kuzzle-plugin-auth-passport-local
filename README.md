@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kuzzleio/kuzzle-plugin-auth-passport-local.svg?branch=master)](https://travis-ci.org/kuzzleio/kuzzle-plugin-auth-passport-local)
 
-![logo](https://raw.githubusercontent.com/kuzzleio/kuzzle/master/docs/images/logo.png)
+<p align=center> ![logo](http://kuzzle.io/guide/images/kuzzle.svg)
 
 # Kuzzle compatibility
 
