@@ -21,6 +21,7 @@
   },
   "pluginInfo": {
     "defaultConfig": {
+      "loadedBy": "server",
       "secret": "changeme",
       "algorithm": "sha1",
       "digest": "hex"
