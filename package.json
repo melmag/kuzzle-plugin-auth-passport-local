@@ -1,6 +1,6 @@
 {
   "name": "kuzzle-plugin-auth-passport-local",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Kuzzle plugin to log-in users",
   "main": "./lib/index.js",
   "repository": {
@@ -21,7 +21,6 @@
   },
   "pluginInfo": {
     "defaultConfig": {
-      "loadedBy": "server",
       "secret": "changeme",
       "algorithm": "sha1",
       "digest": "hex"
